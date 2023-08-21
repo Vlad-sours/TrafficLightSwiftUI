@@ -35,7 +35,7 @@ struct ContentView: View {
             }
         }
     }
-        func changeColor() {
+    private func changeColor() {
             switch colorNow {
             case .off: colorNow = .red
             case .red: colorNow = .yellow
